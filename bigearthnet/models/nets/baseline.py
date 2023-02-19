@@ -28,7 +28,7 @@ class Baseline(torch.nn.Module):  # pragma: no cover
         self.model_name = model_name
         self.conv_layers = nn.Sequential(
             nn.Conv2d(3, 32, 5, padding="same"),
-            nn.ReLU(),
+            nn.LeakyReLU(),
             nn.MaxPool2d(2),
             nn.Conv2d(32, 32, 5, padding="same"),
             nn.ReLU(),

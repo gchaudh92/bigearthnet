@@ -65,5 +65,5 @@ hydra:
 
 defaults:
   - _self_
-  - model: baseline.yaml # uses the default baseline model when training
+  - model: baseline_unsupervised.yaml # uses the default baseline model when training
   - transforms: norm.yaml # performs normalization as default transform

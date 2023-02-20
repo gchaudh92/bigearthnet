@@ -1,0 +1,5 @@
+_target_: bigearthnet.models.nets.baseline_unsupervised.Byol
+num_classes: 43
+hidden_dim: 256
+model_name: baseline_unsupervised
+pretrained: false
